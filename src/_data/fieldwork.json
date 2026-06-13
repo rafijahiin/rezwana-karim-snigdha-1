@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "name": "Dhaka, Bangladesh",
+      "note": "Home base · Hijra ethnography & urban fieldwork",
+      "lat": 23.8103,
+      "lng": 90.4125,
+      "color": "plum"
+    },
+    {
+      "name": "Satkhira, Bagerhat, Barguna",
+      "note": "“Salty Waters” SRH & climate study",
+      "lat": 20.2,
+      "lng": 89.1,
+      "color": "terra"
+    },
+    {
+      "name": "Auckland, New Zealand",
+      "note": "PhD · Auckland University of Technology",
+      "lat": -36.8485,
+      "lng": 174.7633,
+      "color": "teal"
+    },
+    {
+      "name": "New Delhi, India",
+      "note": "JNU & South Asian University talks",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "color": "teal"
+    },
+    {
+      "name": "New York, USA",
+      "note": "Sex Tech Lab, The New School",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "color": "teal"
+    },
+    {
+      "name": "Iowa, USA",
+      "note": "University of Iowa invited lecture",
+      "lat": 41.6611,
+      "lng": -91.5302,
+      "color": "teal"
+    }
+  ]
+}

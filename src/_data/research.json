@@ -1,0 +1,12 @@
+{
+  "items": [
+    { "icon": "hijra", "title": "Hijra & Transgender Studies", "body": "Situated ethnography of gender-diverse communities and the politics of recognition." },
+    { "icon": "feminist", "title": "Feminist Anthropology", "body": "Reading power, labour, and selfhood through the lives of women in urban Bangladesh." },
+    { "icon": "body", "title": "Body & Identity Politics", "body": "How bodies perform, resist, and remember — from everyday life to mass movements." },
+    { "icon": "medical", "title": "Medical Anthropology", "body": "Health discourse, care, and the governance of bodies in South Asian contexts." },
+    { "icon": "climate", "title": "Climate & Coastal Lives", "body": "Reproductive health and resilience among women in salinity-stressed coastal Bangladesh." },
+    { "icon": "media", "title": "Post-Truth Media", "body": "Truth, rumour, and broadcast across the border in a fractured media landscape." },
+    { "icon": "urban", "title": "Urban Anthropology", "body": "City life, class, and the making of the middle-class self in Dhaka." },
+    { "icon": "srh", "title": "Sexual & Reproductive Health", "body": "Rights, access, and silence around SRH for women and gender-diverse people." }
+  ]
+}

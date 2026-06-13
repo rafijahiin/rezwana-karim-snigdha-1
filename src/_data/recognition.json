@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "icon": "award",
+      "title": "Grants & Awards",
+      "items": [
+        { "name": "World Bank / UGC HEAT Grant", "detail": "USD 80,000 · 2025 · top 10.2% nationally" },
+        { "name": "AUT 3-Minute Thesis", "detail": "Audience Choice Award · 2021" },
+        { "name": "AUT Social Sciences Research Awards", "detail": "2015 & 2016" }
+      ]
+    },
+    {
+      "icon": "review",
+      "title": "Journal Peer Review",
+      "items": [
+        { "name": "Journal of the Royal Anthropological Institute", "detail": "" },
+        { "name": "Asian Women", "detail": "SSCI & Scopus indexed" },
+        { "name": "Journal of Homosexuality", "detail": "" },
+        { "name": "Contemporary South Asia", "detail": "" }
+      ]
+    },
+    {
+      "icon": "leadership",
+      "title": "Leadership & Service",
+      "items": [
+        { "name": "Hall Provost", "detail": "Begum Sufia Kamal Hall · 2025–" },
+        { "name": "Trustee Board Member", "detail": "National Child Welfare Trust · 2024–" },
+        { "name": "Reviewer", "detail": "National Youth Development Institute · 2024–" },
+        { "name": "International Coordinator", "detail": "IMRF Bangladesh" }
+      ]
+    },
+    {
+      "icon": "membership",
+      "title": "Memberships",
+      "items": [
+        { "name": "World Anthropology Union (WAU)", "detail": "" },
+        { "name": "IUAES", "detail": "Anthropological & Ethnological Sciences" },
+        { "name": "Sex Tech Lab", "detail": "The New School, New York" },
+        { "name": "Canada–Bangladesh Social Justice Alliance", "detail": "" }
+      ]
+    }
+  ]
+}

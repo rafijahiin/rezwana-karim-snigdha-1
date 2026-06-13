@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ pageTitle or site.title }}</title>
+  <meta name="description" content="{{ pageDescription or site.description }}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="{{ pageTitle or site.title }}" />
+  <meta property="og:description" content="{{ pageDescription or site.description }}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.portrait }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <script>
+    (function () { try { var t = localStorage.getItem('theme'); document.documentElement.setAttribute('data-theme', t === 'light' ? 'light' : 'dark'); } catch (e) {} })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "{{ site.url }}/#person",
+        "name": "{{ site.nameTop }} {{ site.nameAccent }}",
+        "honorificPrefix": "Dr.",
+        "jobTitle": "Associate Professor of Anthropology",
+        "description": "One of Bangladesh's foremost feminist anthropologists, known for ethnographic research on Hijra communities, gender, body and belonging in South Asia.",
+        "gender": "Female",
+        "nationality": { "@type": "Country", "name": "Bangladesh" },
+        "image": "{{ site.url }}{{ site.portrait }}",
+        "url": "{{ site.url }}",
+        "email": "mailto:{{ site.email }}",
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Auckland University of Technology" },
+        "worksFor": { "@type": "CollegeOrUniversity", "name": "Jahangirnagar University", "address": { "@type": "PostalAddress", "addressLocality": "Dhaka", "addressCountry": "BD" } },
+        "knowsAbout": ["Feminist Anthropology","Hijra and Transgender Studies","Gender and Sexuality","Medical Anthropology","Ethnography","Sexual and Reproductive Health","Body Politics","Anthropology of Bangladesh"],
+        "sameAs": ["{{ site.scholar }}","{{ site.researchgate }}","{{ site.university }}"]
+      },
+      { "@type": "WebSite", "@id": "{{ site.url }}/#website", "url": "{{ site.url }}", "name": "{{ site.nameTop }} {{ site.nameAccent }}", "publisher": { "@id": "{{ site.url }}/#person" } }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="scroll-progress" id="progress"></div>
+  <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+  <header class="site-header{% if not isHome %} scrolled{% endif %}" id="header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="/" class="brand">{{ site.brandTop }} <span class="dot">{{ site.brandAccent }}</span><small>Anthropologist</small></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="{{ navPrefix }}#about">About</a></li>
+        <li><a href="{{ navPrefix }}#research">Research</a></li>
+        <li><a href="{{ navPrefix }}#publications">Publications</a></li>
+        <li><a href="{{ navPrefix }}#talks">Talks</a></li>
+        <li><a href="{{ navPrefix }}#projects">Projects</a></li>
+        <li><a href="{{ navPrefix }}#field">Fieldwork</a></li>
+        <li><a href="{{ navPrefix }}#contact">Contact</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+          <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <small>© {% year %} {{ site.nameTop }} {{ site.nameAccent }} · Feminist Anthropologist, Bangladesh</small>
+      <div class="footer-links">
+        <a href="/#about">About</a><a href="/publications/">Publications</a><a href="/background/">CV</a><a href="/#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

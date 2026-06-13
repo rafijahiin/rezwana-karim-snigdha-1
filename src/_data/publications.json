@@ -1,0 +1,15 @@
+{
+  "items": [
+    { "featured": true, "year": "2023", "type": "book", "title": "<span class=\"bn\">নারীসত্তার অন্বেষণে</span> — In Search of Women's Self: An Ethnographic Study of Middle-Class Women in Dhaka", "venue": "Snigdha, R. K. · Dhaka: Oitijhya · 320+ Google Scholar citations" },
+    { "featured": true, "year": "2025", "type": "article", "title": "Fractured Truth Between the Border and Broadcast: The Post-Truth Gaze of Indian Media on Bangladeshi Hindus After the July Uprising", "venue": "Snigdha, R. K., & Zohra, F. T. · Jahangirnagar University Review: Social Science, 49(1)" },
+    { "featured": true, "year": "2023", "type": "article", "title": "Locating Hijra and Transgender in Bangladeshi Health Discourse: A Critical Analysis", "venue": "Snigdha, R. K. · Jahangirnagar University Review, 47(1)" },
+    { "featured": true, "year": "2023", "type": "article", "title": "Exploring the Religious Practices of Hijra in Bangladesh", "venue": "Snigdha, R. K. · Jahangirnagar University Review, 47(2)" },
+    { "featured": false, "year": "2022", "type": "article", "title": "Rethinking Women's Self: A Critical Analysis", "venue": "Snigdha, R. K. · Jahangirnagar University Review, 46(1)" },
+    { "featured": true, "year": "2022", "type": "chapter", "title": "An Analysis of the Gender Representation of Post-War Sculptures at Public Universities in Dhaka", "venue": "In A. Hussain (Ed.), Contemporary Issues in Social Science (pp. 93–107) · Jahangirnagar University" },
+    { "featured": true, "year": "2021", "type": "chapter", "title": "My Entirety", "venue": "In P. Mandal et al. (Eds.), My City, My Home (pp. 195–198) · Sampad South Asian Arts & Heritage" },
+    { "featured": true, "year": "2019", "type": "article", "title": "An Obscure Perception of Transgender in Islam: A Case of Hijra in Bangladesh", "venue": "Snigdha, R. K. · Global Journal of Human-Social Science Research, 19(5), 29–36" },
+    { "featured": false, "year": "2017", "type": "article", "title": "<span class=\"bn\">বাস্তব ও অতিবাস্তবের উপাখ্যান</span> (Narratives of the Real and the Hyperreal)", "venue": "Snigdha, R. K. · <span class=\"bn\">বাংলা একাডেমি পত্রিকা</span>, 58(3–4), 108–118 · in Bengali" },
+    { "featured": false, "year": "2016", "type": "article", "title": "<span class=\"bn\">‘অস্পৃশ্য’ ও ‘অদৃশ্য’</span> (The Untouchable and the Invisible)", "venue": "Snigdha, R. K., & Akhtar, S. · <span class=\"bn\">সমাজবিজ্ঞান সমীক্ষা</span>, 2, 43–50 · in Bengali" },
+    { "featured": false, "year": "2015", "type": "article", "title": "<span class=\"bn\">চলচ্চিত্রে পটভূমি</span> (Setting in Cinema)", "venue": "Snigdha, R. K. · <span class=\"bn\">বাংলাদেশ ফিল্ম আর্কাইভ জার্নাল</span>, 8, 100–106 · in Bengali" }
+  ]
+}

@@ -1,0 +1,75 @@
+---
+layout: base.njk
+permalink: /publications/
+navPrefix: "/"
+pageTitle: "Publications — Dr. Rezwana Karim Snigdha"
+pageDescription: "Books, chapters, peer-reviewed articles, conference presentations and journal peer-review service by Dr. Rezwana Karim Snigdha, feminist anthropologist, Jahangirnagar University."
+---
+<header class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb"><a href="/">Home</a> · Publications</nav>
+    <div class="eyebrow">Scholarship</div>
+    <h1>Publications</h1>
+    <p class="lead" style="margin-top:1rem">Books, chapters, and peer-reviewed articles on gender, the body, health, and belonging — alongside conference presentations and journal peer-review service.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="filters reveal" role="tablist" aria-label="Filter publications">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="book">Books</button>
+      <button class="chip" data-filter="article">Articles</button>
+      <button class="chip" data-filter="chapter">Chapters</button>
+    </div>
+    {% set labels = { "book": "Book", "article": "Article", "chapter": "Chapter" } %}
+    <div class="pub-list">
+      {% for p in publications.items %}
+      <article class="pub reveal" data-type="{{ p.type }}">
+        <span class="year">{{ p.year }}</span>
+        <div><h3>{{ p.title | safe }}</h3><p class="venue">{{ p.venue | safe }}</p></div>
+        <span class="tag tag--{{ p.type }}">{{ labels[p.type] }}</span>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="hero-cta reveal" style="margin-top:2rem">
+      <a href="{{ site.scholar }}" class="btn btn--primary" target="_blank" rel="noopener">View on Google Scholar
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+      <a href="{{ site.researchgate }}" class="btn btn--ghost" target="_blank" rel="noopener">ResearchGate</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="about-grid">
+      <div class="section-head reveal sticky-head" style="margin-bottom:0">
+        <div class="eyebrow">Conferences</div>
+        <h2>Presentations</h2>
+        <p class="lead">Invited and refereed presentations at major anthropology congresses.</p>
+      </div>
+      <div class="timeline reveal" data-delay="1">
+        <div class="tl-item"><div class="when">2025 · WAU Congress</div><h3>World Anthropology Union Congress</h3><p class="where">Refereed conference presentation</p></div>
+        <div class="tl-item"><div class="when">2024 · WAU Congress</div><h3>World Anthropology Union Congress</h3><p class="where">Refereed conference presentation</p></div>
+        <div class="tl-item"><div class="when">2023 · IUAES World Congress</div><h3>Int'l Union of Anthropological &amp; Ethnological Sciences</h3><p class="where">Conference presentation</p></div>
+        <div class="tl-item"><div class="when">2022 · ASAA Conference</div><h3>Anthropological Society — Asia</h3><p class="where">Conference presentation</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Service</div>
+      <h2>Journal peer review</h2>
+      <p class="lead">Reviewer for leading international journals across anthropology, gender, and area studies.</p>
+    </div>
+    <div class="grid project-grid">
+      <article class="project-card reveal"><h3 style="font-size:1.3rem">Journal of the Royal Anthropological Institute</h3><span class="role">Reviewer</span></article>
+      <article class="project-card reveal" data-delay="1"><h3 style="font-size:1.3rem">Asian Women</h3><p>SSCI &amp; Scopus indexed</p><span class="role">Reviewer</span></article>
+      <article class="project-card reveal" data-delay="2"><h3 style="font-size:1.3rem">Journal of Homosexuality</h3><span class="role">Reviewer</span></article>
+      <article class="project-card reveal" data-delay="3"><h3 style="font-size:1.3rem">Contemporary South Asia</h3><span class="role">Reviewer</span></article>
+    </div>
+  </div>
+</section>

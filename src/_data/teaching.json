@@ -1,0 +1,11 @@
+{
+  "intro": "Across fifteen years at Jahangirnagar University — and as part-time faculty at North South University — Dr. Snigdha teaches at both undergraduate and graduate level, supervising MSS and MPhil theses in gender, sexuality, and medical anthropology.",
+  "items": [
+    { "title": "Anthropology of Gender & Sexuality", "level": "Graduate & Undergraduate", "detail": "Foundational theory and ethnography of gender, sexuality, and the politics of difference." },
+    { "title": "Medical Anthropology", "level": "Graduate", "detail": "Health, the body, care, and the governance of populations in South Asian contexts." },
+    { "title": "Ethnographic Research Methods", "level": "Graduate", "detail": "Fieldwork design, participant observation, reflexivity, and writing ethnography." },
+    { "title": "Masculinity & Queer Studies", "level": "Graduate", "detail": "Hijra and transgender lives, hegemonic masculinities, and the anthropology of recognition." },
+    { "title": "Feminist Theory & Anthropology", "level": "Undergraduate", "detail": "Feminist epistemologies and their application to the study of society and the self." },
+    { "title": "Contemporary Politics, Religion & Society", "level": "Undergraduate", "detail": "Religion, media, and political change in contemporary Bangladesh." }
+  ]
+}
