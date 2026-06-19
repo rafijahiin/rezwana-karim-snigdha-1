@@ -1,8 +1,60 @@
 {
   "items": [
-    { "outlet": "University of Iowa · International Programs", "type": "Invited feature", "title": "The Future of Democracy in Post-Election Bangladesh", "year": "2026", "url": "https://international.uiowa.edu/news/2026/03/post-election-bangladesh-and-future-democracy-be-discussed-upcoming-ui-virtual-talk" },
-    { "outlet": "Prothom Alo", "type": "Interview", "title": "On gender, the body, and women's selfhood in Bangladesh", "year": "2025", "url": "" },
-    { "outlet": "National television", "type": "Panellist", "title": "Talk-show panellist on gender justice, censorship, and social change", "year": "Ongoing", "url": "" },
-    { "outlet": "Canadian University of Bangladesh", "type": "Public keynote", "title": "Who Owns Female Bodies?", "year": "2025", "url": "" }
+    {
+      "outlet": "Charcha",
+      "type": "Interview",
+      "title": "ডয়চে ভেলের বিশ্লেষণ-ধর্ম কি আবারও বাংলা ভাগ করছে?",
+      "year": "2026",
+      "url": "https://chaarcha.com/analysis/chbeu0h0w1tg?fbclid=IwY2xjawSaUrBleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeQBhGMAgf34cE-ahhd0b4fJgzlB1t-cSA3xW2KVy-rT70mhnpH6qDj6pV6wY_aem_7Q9VQwgOykQlO8qxR3ZiUQ"
+    },
+    {
+      "outlet": "Deutsche Welle (DW)",
+      "type": "Interview",
+      "title": "Religion steers Bengal politics in Bangladesh, India — again",
+      "year": "2025",
+      "url": "https://www.dw.com/en/religion-steers-bengal-politics-in-bangladesh-india-again/a-77123609?fbclid=IwY2xjawSaUgpleHRuA2FlbQIxMABicmlkETFUSW80Y2Vtd01vNGVKVmtKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiBFUV0_gkdtTgxzRMW_WYKZirlgGJnXKyAGcyTh4wVXpapZiSEnXZvHbT1T_aem_ohdHa1K3m0Due8NbiYZZrQ"
+    },
+    {
+      "outlet": "Prothom Alo",
+      "type": "Column",
+      "title": "প্রদর্শনীর চর্চা যেভাবে আমাদের পড়ালেখা ধ্বংস করছে",
+      "year": "2026",
+      "url": "https://www.prothomalo.com/opinion/column/rf0cyaj92x"
+    },
+    {
+      "outlet": "Jugantor",
+      "type": "Column",
+      "title": "নারী অনুপস্থিত নয়, তবে তার ক্ষমতা সীমাবদ্ধ",
+      "year": "2026",
+      "url": "https://www.jugantor.com/tp-ub-editorial/1093422?fbclid=IwVERDUARZX9VleHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR4V7bY38VAVwZQ5G2D20g5Uf9SLB-Gii9XZ6DwcJ2l0Pju1R_LC2zqX4s7XTg_aem_E9_235Kt32jRpYSeTCuOfA"
+    },
+    {
+      "outlet": "Prothom Alo",
+      "type": "Column",
+      "title": "ছেলেরা যৌন সহিংসতার শিকার হলে আমরা কেন নীরব থাকি",
+      "year": "2026",
+      "url": "https://www.prothomalo.com/opinion/column/ldw2c41kvf?fbclid=IwdGRjcARZYDRjbGNrBFlgMGV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHlaGRuR70XnYPIYT1kmfLMCzB3hMHDqZxHOhMImNLrZNugQCHTiKyO1ZCF7r_aem_UDVtEZL1Tq-IiBoPAgtkgg&utm_id=97758_v0_s00_e0_tv0"
+    },
+    {
+      "outlet": "Samakal",
+      "type": "Column",
+      "title": "ধর্ষণ: ভয় ও ক্ষমতার ভাষা",
+      "year": "2026",
+      "url": "https://samakal.com/somota/article/345747/%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%A3:-%E0%A6%AD%E0%A7%9F-%E0%A6%93-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE?fbclid=IwVERDUARZYExleHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR4nr2olXYpddOdFSWWBBfgYJZS_P1B_7sCerobs9wi2mZLzZllNpT0OfBviEw_aem_cZ8xBkg3D9wHi2mFF30aLw"
+    },
+    {
+      "outlet": "Prothom Alo",
+      "type": "Column",
+      "title": "‘শিক্ষিকা’ একটি সম্বোধন নাকি সীমারেখা",
+      "year": "2026",
+      "url": "https://www.prothomalo.com/opinion/hbs2o86fvh?fbclid=IwdGRjcARZYHNjbGNrBFlgcmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkSO0Dkt5bivNkTPXW1PTjv3fHp8t_VwHomfT9RqVDWOG_Qbe_ZHJ6qt8h_M_aem_EQdkbBTbOQoqQWGt4kWXBw&utm_id=97758_v0_s00_e0_tv0"
+    },
+    {
+      "outlet": "Kaler Kantho",
+      "type": "Column",
+      "title": "দুর্ঘটনা নয়, অবহেলার পুনরাবৃত্তি : আমরা কি সত্যিই মানুষের জীবনকে মূল্য দিই?",
+      "year": "2026",
+      "url": "https://www.kalerkantho.com/online/opinion/2026/03/26/1663456?fbclid=IwdGRjcARZYMZjbGNrBFlgw2V4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHsHF3ArTSQa4npOsU5a-fdcyTO8cYsGSbekJI9n89wQ6ffPHZeyKrHwdAkhw_aem_ZB7_bW2m6NOiXUmjeb81pw"
+    }
   ]
 }
