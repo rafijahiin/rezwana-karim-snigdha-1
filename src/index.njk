@@ -153,7 +153,11 @@ navPrefix: ""
       </div>
       <div class="timeline reveal" data-delay="1">
         {% for t in talks.items %}
-        <div class="tl-item"><div class="when">{{ t.when }}</div><h3>{{ t.title | safe }}</h3><p class="where">{{ t.where | safe }}</p></div>
+        {% if t.url %}<a class="tl-item" href="{{ t.url }}" target="_blank" rel="noopener">{% else %}<div class="tl-item">{% endif %}
+          <div class="when">{{ t.when }}</div>
+          <h3>{{ t.title | safe }}{% if t.url %} <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" style="vertical-align:middle;opacity:.6"><path d="M7 17 17 7M9 7h8v8"/></svg>{% endif %}</h3>
+          <p class="where">{{ t.where | safe }}</p>
+        {% if t.url %}</a>{% else %}</div>{% endif %}
         {% endfor %}
       </div>
     </div>

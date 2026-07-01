@@ -296,7 +296,7 @@ p { max-width: 68ch; }
 /* ---------- Timeline (talks / projects) ---------- */
 .timeline { position: relative; padding-left: 2rem; }
 .timeline::before { content: ""; position: absolute; left: 7px; top: .5rem; bottom: .5rem; width: 2px; background: var(--line); }
-.tl-item { position: relative; padding-bottom: 2rem; }
+.tl-item { position: relative; padding-bottom: 2rem; display: block; text-decoration: none; color: inherit; }
 .tl-item::before { content: ""; position: absolute; left: -2rem; top: .4rem; width: 16px; height: 16px; border-radius: 50%; background: var(--paper); border: 3px solid var(--terracotta); transition: transform .3s var(--ease), background .3s; }
 .tl-item:hover::before { background: var(--terracotta); transform: scale(1.2); }
 .tl-item .when { font-size: var(--step--1); font-weight: 600; color: var(--terracotta); letter-spacing: .04em; }

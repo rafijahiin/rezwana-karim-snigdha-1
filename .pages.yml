@@ -102,6 +102,7 @@ content:
           - { name: when, label: "When / where", type: string }
           - { name: title, label: "Title", type: string }
           - { name: where, label: "Detail", type: string }
+          - { name: url, label: "Link (video, lecture, recording — optional)", type: string, required: false }
 
   # ---------- Projects ----------
   - name: projects
