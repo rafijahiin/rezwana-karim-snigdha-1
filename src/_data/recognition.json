@@ -46,19 +46,31 @@
       "items": [
         {
           "name": "Hall Provost",
-          "detail": "Begum Sufia Kamal Hall · 2025–Ongoing"
+          "detail": "Begum Sufia Kamal Hall · 2025–Present"
         },
         {
           "name": "Trustee Board Member",
-          "detail": "National Child Welfare Trust · 2024–"
+          "detail": "National Child Welfare Trust · 2024–Present"
         },
         {
           "name": "Reviewer",
-          "detail": "National Youth Development Institute · 2024–"
+          "detail": "National Youth Development Institute · 2024–Present"
         },
         {
           "name": "International Coordinator",
           "detail": "IMRF Bangladesh"
+        },
+        {
+          "name": "Student Adviser, Department of Anthropology",
+          "detail": "Jahangirnagar University. 2024 – Present"
+        },
+        {
+          "name": "Election Committee Member, JUCSU",
+          "detail": "Jahangirnagar University. 2024 – 2025"
+        },
+        {
+          "name": "Deputy Director, Teacher-Student Centre (TSC)",
+          "detail": "Jahangirnagar University. 2024 – 2025"
         }
       ]
     },
@@ -71,7 +83,7 @@
         },
         {
           "name": "IUAES",
-          "detail": "Anthropological & Ethnological Sciences"
+          "detail": "International Union of Anthropological and Ethnological Sciences (IUAES)"
         },
         {
           "name": "Sex Tech Lab",
@@ -79,6 +91,18 @@
         },
         {
           "name": "Canada–Bangladesh Social Justice Alliance"
+        },
+        {
+          "name": "Kapaeeng Foundation"
+        },
+        {
+          "name": "IMRF Bangladesh"
+        },
+        {
+          "name": "Duke of Edinburgh's Award Leader Foundation"
+        },
+        {
+          "name": "The World School of Bangladesh"
         }
       ]
     }
