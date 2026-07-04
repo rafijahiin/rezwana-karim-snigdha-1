@@ -250,7 +250,30 @@ navPrefix: ""
 </section>
 <script>window.FIELDWORK = {{ fieldwork.items | dump | safe }};</script>
 
-<!-- ===== Custom / Extra Sections ===== -->
+<!-- ===== Training & Capacity Building ===== -->
+<section class="section section--alt" id="training-capacity-building">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">{{ training.eyebrow or "Training" }}</div>
+      <h2>Training &amp; Capacity Building</h2>
+      {% if training.lead %}<p class="lead">{{ training.lead }}</p>{% endif %}
+    </div>
+    <div class="teach-list reveal">
+      {% for item in training.items %}
+      <article class="teach-item">
+        <div class="teach-top">
+          <h3>{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener" style="color:inherit">{{ item.title | safe }}</a>{% else %}{{ item.title | safe }}{% endif %}</h3>
+          {% if item.tag %}<span class="teach-level">{{ item.tag }}</span>{% endif %}
+        </div>
+        {% if item.subtitle %}<p style="font-size:var(--step--1);color:var(--terracotta);font-weight:600;margin:.2rem 0 .4rem">{{ item.subtitle }}</p>{% endif %}
+        {% if item.detail %}<p>{{ item.detail | safe }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===== Extra Sections (future use) ===== -->
 {% for sec in custom_sections.sections %}
 <section class="section{% if sec.style == 'alt' %} section--alt{% endif %}" id="{{ sec.title | slugify }}">
   <div class="container">

@@ -191,6 +191,25 @@ content:
           - { name: lng, label: "Longitude", type: number }
           - { name: color, label: "Marker colour", type: select, options: { values: [plum, terra, teal] } }
 
+  # ---------- Training & Capacity Building ----------
+  - name: training
+    label: "Training & Capacity Building"
+    type: file
+    path: src/_data/training.json
+    fields:
+      - { name: eyebrow, label: "Eyebrow label (small word above heading)", type: string }
+      - { name: lead, label: "Lead paragraph (optional)", type: text, required: false }
+      - name: items
+        label: "Training programmes"
+        type: object
+        list: true
+        fields:
+          - { name: title, label: "Title", type: string }
+          - { name: subtitle, label: "Organisation / venue (optional)", type: string, required: false }
+          - { name: detail, label: "Description (optional)", type: text, required: false }
+          - { name: tag, label: "Badge / tag (e.g. Lead Trainer)", type: string, required: false }
+          - { name: url, label: "Link (optional)", type: string, required: false }
+
   # ---------- Navigation settings ----------
   - name: section_config
     label: "⚙️ Navigation Settings"
