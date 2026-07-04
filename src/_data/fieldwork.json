@@ -1,18 +1,32 @@
 {
   "items": [
     {
+      "name": "Satkhira",
+      "note": "Salty Waters, Silent Struggles: An Ethnographic Study of Sexual and Reproductive Health of Women in Coastal Bangladesh",
+      "lat": 20.2,
+      "lng": 89.1,
+      "color": "terra"
+    },
+    {
+      "name": "Bagerhat",
+      "note": "Salty Waters, Silent Struggles: An Ethnographic Study of Sexual and Reproductive Health of Women in Coastal Bangladesh",
+      "lat": 22.4,
+      "lng": 89,
+      "color": "terra"
+    },
+    {
+      "name": "Borguna",
+      "note": "Salty Waters, Silent Struggles: An Ethnographic Study of Sexual and Reproductive Health of Women in Coastal Bangladesh",
+      "lat": 22.16,
+      "lng": 90.13,
+      "color": "terra"
+    },
+    {
       "name": "Dhaka, Bangladesh",
       "note": "Ethnography & urban fieldwork",
       "lat": 23.8103,
       "lng": 90.4125,
       "color": "plum"
-    },
-    {
-      "name": "Satkhira, Bagerhat, Barguna",
-      "note": "“Salty Waters” SRH & climate study",
-      "lat": 20.2,
-      "lng": 89.1,
-      "color": "terra"
     },
     {
       "name": "Auckland, New Zealand",
