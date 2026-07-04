@@ -64,6 +64,7 @@
         <li><a href="{{ navPrefix }}#talks">Talks</a></li>
         <li><a href="{{ navPrefix }}#projects">Projects</a></li>
         <li><a href="{{ navPrefix }}#field">Fieldwork</a></li>
+        {% for sec in (custom_sections.sections or []) %}<li><a href="{{ navPrefix }}#{{ sec.title | slugify }}">{{ sec.eyebrow or sec.title }}</a></li>{% endfor %}
         <li><a href="{{ navPrefix }}#contact">Contact</a></li>
       </ul>
       <div class="nav-tools">
