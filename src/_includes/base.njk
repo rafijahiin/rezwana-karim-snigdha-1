@@ -58,14 +58,8 @@
     <nav class="nav container" aria-label="Primary">
       <a href="/" class="brand">{{ site.brandTop }} <span class="dot">{{ site.brandAccent }}</span><small>Anthropologist</small></a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="{{ navPrefix }}#about">About</a></li>
-        <li><a href="{{ navPrefix }}#research">Research</a></li>
-        <li><a href="{{ navPrefix }}#publications">Publications</a></li>
-        <li><a href="{{ navPrefix }}#talks">Talks</a></li>
-        <li><a href="{{ navPrefix }}#projects">Projects</a></li>
-        <li><a href="{{ navPrefix }}#field">Fieldwork</a></li>
+        {% for item in (section_config.nav or []) %}{% if item.show %}<li><a href="{{ navPrefix }}#{{ item.anchor }}">{{ item.label }}</a></li>{% endif %}{% endfor %}
         {% for sec in (custom_sections.sections or []) %}<li><a href="{{ navPrefix }}#{{ sec.title | slugify }}">{{ sec.eyebrow or sec.title }}</a></li>{% endfor %}
-        <li><a href="{{ navPrefix }}#contact">Contact</a></li>
       </ul>
       <div class="nav-tools">
         <button class="icon-btn" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">

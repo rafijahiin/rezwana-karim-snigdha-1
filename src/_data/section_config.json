@@ -1,0 +1,12 @@
+{
+  "nav": [
+    { "anchor": "about",       "label": "About",        "show": true },
+    { "anchor": "research",    "label": "Research",     "show": true },
+    { "anchor": "teaching",    "label": "Teaching",     "show": true },
+    { "anchor": "publications","label": "Publications", "show": true },
+    { "anchor": "talks",       "label": "Talks",        "show": true },
+    { "anchor": "projects",    "label": "Projects",     "show": true },
+    { "anchor": "field",       "label": "Fieldwork",    "show": true },
+    { "anchor": "contact",     "label": "Contact",      "show": true }
+  ]
+}

@@ -191,6 +191,22 @@ content:
           - { name: lng, label: "Longitude", type: number }
           - { name: color, label: "Marker colour", type: select, options: { values: [plum, terra, teal] } }
 
+  # ---------- Navigation settings ----------
+  - name: section_config
+    label: "⚙️ Navigation Settings"
+    type: file
+    path: src/_data/section_config.json
+    fields:
+      - name: nav
+        label: "Navigation links"
+        type: object
+        list: true
+        description: "Each row is one link in the top navbar. Toggle it off to hide it, rename the label to change what visitors see, drag rows to reorder. The Anchor ID must not be changed."
+        fields:
+          - { name: anchor, label: "Anchor ID (⚠️ do not change)", type: string }
+          - { name: label,  label: "Nav label (rename freely)", type: string }
+          - { name: show,   label: "Show in navbar?", type: boolean, default: true }
+
   # ---------- Custom / Extra Sections ----------
   # Mili can add as many new sections here as she needs — no developer required.
   # Each section gets its own heading, lead text, layout style, and item list.
