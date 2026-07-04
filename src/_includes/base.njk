@@ -59,7 +59,6 @@
       <a href="/" class="brand">{{ site.brandTop }} <span class="dot">{{ site.brandAccent }}</span><small>Anthropologist</small></a>
       <ul class="nav-links" id="navLinks">
         {% for item in (section_config.nav or []) %}{% if item.show %}<li><a href="{{ navPrefix }}#{{ item.anchor }}">{{ item.label }}</a></li>{% endif %}{% endfor %}
-        {% for sec in (custom_sections.sections or []) %}<li><a href="{{ navPrefix }}#{{ sec.title | slugify }}">{{ sec.eyebrow or sec.title }}</a></li>{% endfor %}
       </ul>
       <div class="nav-tools">
         <button class="icon-btn" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">

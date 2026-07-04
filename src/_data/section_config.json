@@ -36,6 +36,11 @@
       "show": true
     },
     {
+      "anchor": "training-capacity-building",
+      "label": "Training",
+      "show": true
+    },
+    {
       "anchor": "contact",
       "label": "Contact",
       "show": true
