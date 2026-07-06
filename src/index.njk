@@ -59,10 +59,6 @@ navPrefix: ""
             {% for r in site.roles %}<li><b>{{ r.role }}</b><span>{{ r.org }}</span></li>{% endfor %}
           </ul>
         </div>
-        <div class="hero-cta" style="margin-top:1.8rem">
-          <a href="/background/" class="btn btn--ghost">Full background &amp; CV
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-        </div>
       </div>
     </div>
   </div>
@@ -272,56 +268,6 @@ navPrefix: ""
     </div>
   </div>
 </section>
-
-<!-- ===== Extra Sections (future use) ===== -->
-{% for sec in custom_sections.sections %}
-<section class="section{% if sec.style == 'alt' %} section--alt{% endif %}" id="{{ sec.title | slugify }}">
-  <div class="container">
-    <div class="section-head reveal">
-      {% if sec.eyebrow %}<div class="eyebrow">{{ sec.eyebrow }}</div>{% endif %}
-      <h2>{{ sec.title }}</h2>
-      {% if sec.lead %}<p class="lead">{{ sec.lead }}</p>{% endif %}
-    </div>
-    {% if sec.layout == "timeline" %}
-    <div class="about-grid">
-      <div class="timeline reveal" data-delay="1">
-        {% for item in sec.items %}
-        {% if item.url %}<a class="tl-item" href="{{ item.url }}" target="_blank" rel="noopener">{% else %}<div class="tl-item">{% endif %}
-          {% if item.subtitle %}<div class="when">{{ item.subtitle }}</div>{% endif %}
-          <h3>{{ item.title | safe }}{% if item.url %} <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" style="vertical-align:middle;opacity:.6"><path d="M7 17 17 7M9 7h8v8"/></svg>{% endif %}</h3>
-          {% if item.detail %}<p class="where">{{ item.detail | safe }}</p>{% endif %}
-        {% if item.url %}</a>{% else %}</div>{% endif %}
-        {% endfor %}
-      </div>
-    </div>
-    {% elif sec.layout == "grid" %}
-    <div class="grid project-grid">
-      {% for item in sec.items %}
-      <article class="project-card reveal"{% if loop.index0 %} data-delay="{{ loop.index0 }}"{% endif %}>
-        {% if item.subtitle %}<div class="meta">{{ item.subtitle }}</div>{% endif %}
-        <h3>{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener" style="color:inherit">{{ item.title | safe }}</a>{% else %}{{ item.title | safe }}{% endif %}</h3>
-        {% if item.detail %}<p>{{ item.detail | safe }}</p>{% endif %}
-        {% if item.tag %}<span class="role">{{ item.tag }}</span>{% endif %}
-      </article>
-      {% endfor %}
-    </div>
-    {% else %}
-    <div class="teach-list reveal">
-      {% for item in sec.items %}
-      <article class="teach-item">
-        <div class="teach-top">
-          <h3>{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener" style="color:inherit">{{ item.title | safe }}</a>{% else %}{{ item.title | safe }}{% endif %}</h3>
-          {% if item.tag %}<span class="teach-level">{{ item.tag }}</span>{% endif %}
-        </div>
-        {% if item.subtitle %}<p style="font-size:var(--step--1);color:var(--terracotta);font-weight:600;margin:.2rem 0 .4rem">{{ item.subtitle }}</p>{% endif %}
-        {% if item.detail %}<p>{{ item.detail | safe }}</p>{% endif %}
-      </article>
-      {% endfor %}
-    </div>
-    {% endif %}
-  </div>
-</section>
-{% endfor %}
 
 <!-- ===== Contact ===== -->
 <section class="section" id="contact">
